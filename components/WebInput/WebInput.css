@@ -1,0 +1,56 @@
+.ds-text-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #D2D7DD;
+}
+
+.ds-text-input_label {
+  font-size: 13px;
+  line-height: 150%;
+  color: #070D12;
+}
+
+.ds-text-input_label::after { content:"*"; color: red; }
+
+.ds-text-input {
+  height: 44px;
+  border: 1px solid #D2D7DD;
+  border-radius: 4px;
+  padding: 10px 12px;
+  color: #303A47;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.ds-text-input_helper-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #BCC7D8;
+}
+
+.ds-text--input--error {
+  border: 1.5px solid #F42828;
+}
+
+.ds-text--input--valid {
+  border: 1.5px solid #12AA46;
+}
+
+.ds-text-input_helper-text--error {
+  color:#E53535
+}
+
+.ds-text--input_container {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-right {
+  position:absolute;
+  inset-inline-end: 0.75em;
+  inset-block-end: 0.75em;
+}
